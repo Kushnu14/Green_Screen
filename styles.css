@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
+*
+{
+   
+   color: #fff;
+    font-family: 'Poppins',sans-serif;
+
+}
+body
+{
+    background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    min-height: 100vh;
+}
+
+.container
+{
+    position:relative;
+    width:100%;
+    height: 100vh;
+    left: 20%;
+    top: 20%;
+}
+
+#canvas1
+{
+    border: 2px solid #000;
+    width: 400px;
+   
+    
+}
+#canvas2
+{
+    border: 2px solid #000;
+    width: 400px;
+}
+#canvas3
+{
+    border: 2px solid #000;
+    width: 400px;
+}
+
+button
+{
+    
+    top:-15%;
+    position:relative;
+    left: 1%;
+    color: #000;
+    background-color: grey;
+    height:10%;
+    width: 10%;
+}   
+#fileInput1
+{
+    color:#fff;
+}
+#fileInput2
+{
+    color:#fff;
+}
+
+
