@@ -9,6 +9,7 @@
 body
 {
     background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 
