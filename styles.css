@@ -4,52 +4,67 @@
    
    color: #fff;
     font-family: 'Poppins',sans-serif;
+    
 
 }
 body
 {
-    background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-repeat: no-repeat;
+    width: max-content;
     min-height: 100vh;
+    background: linear-gradient(teal,purple) fixed;
 }
 
 .container
 {
+    
     position:relative;
     width:100%;
     height: 100vh;
-    left: 20%;
-    top: 20%;
+    left: 10%;
+    top: 10%;
 }
-
-#canvas1
-{
-    border: 2px solid #000;
+#canvas1,
+#canvas2,
+#canvas3 {
+    position: relative;
     width: 400px;
-   
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
     
 }
-#canvas2
-{
-    border: 2px solid #000;
-    width: 400px;
-}
-#canvas3
-{
-    border: 2px solid #000;
-    width: 400px;
-}
 
-button
+.reset
 {
-    
-    top:-15%;
+    justify-content: center;
+    top:-30%;
     position:relative;
-    left: 1%;
-    color: #000;
-    background-color: grey;
+    left: 9%;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+    background: linear-gradient(teal,blue);
+    font-weight: 500;
     height:10%;
     width: 10%;
+    border: 2px solid #fff;
+    letter-spacing: 1px;
+}  
+
+.merge
+{
+    justify-content: center;
+    top:-30%;
+    position:relative;
+    left: 9%;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+    background: linear-gradient(teal,blue);
+    font-weight: 500;
+    height:10%;
+    width: 10%;
+    border: 2px solid #fff;
+    letter-spacing: 1px;
 }   
 #fileInput1
 {
